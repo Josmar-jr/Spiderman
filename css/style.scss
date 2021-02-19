@@ -1,0 +1,40 @@
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin responsive() {
+    @media screen and (max-width: 960px) {
+        @content;
+    }
+}
+@mixin responsiveS() {
+    @media screen and (max-width: 430px) {
+        @content;
+    }
+}
+
+@import 'partials/spacing';
+@import "partials/menu";
+@import "partials/layout";
+
+.border {
+    border: 1px solid red;
+}
+
+body {
+    width: 100%;
+    font-family: 'Mukta', sans-serif;
+
+    background: #0A0C10;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@import "partials/animation";
