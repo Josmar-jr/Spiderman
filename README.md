@@ -3,7 +3,9 @@
 ## Demonstration 
 <img src="./img/Image__Demonstration.jpeg">
 
+## Aprendizado
 
+* Aplicação de motion design ao projeto
 
 ## Teachs
 
